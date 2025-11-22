@@ -19,6 +19,9 @@ import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
 
+// app/styles/carousel.css
+var carousel_default = "/build/_assets/carousel-PQFQKXAE.css";
+
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
@@ -40,12 +43,12 @@ if (import.meta) {
   );
 }
 var links = () => [
-  // Add your custom CSS
+  // Correct way to load local Remix CSS
   {
     rel: "stylesheet",
-    href: "/styles/carousel.css"
+    href: carousel_default
   },
-  // ✅ Bootstrap CSS CDN
+  // Bootstrap CSS CDN
   {
     rel: "stylesheet",
     href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css",
@@ -58,57 +61,57 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 37,
+        lineNumber: 40,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 38,
+        lineNumber: 41,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 36,
+      lineNumber: 39,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("body", { className: "bg-light", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container py-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 42,
+        lineNumber: 45,
         columnNumber: 11
       }, this) }, void 0, false, {
-        fileName: "app/root.tsx",
-        lineNumber: 41,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.tsx",
         lineNumber: 44,
         columnNumber: 9
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ScrollRestoration, {}, void 0, false, {
+        fileName: "app/root.tsx",
+        lineNumber: 47,
+        columnNumber: 9
+      }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 45,
+        lineNumber: 48,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 46,
+        lineNumber: 49,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("script", { src: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js", integrity: "sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+QZ9jEY5iqk6g3k5iZLv3G5R0RDfX", crossOrigin: "anonymous" }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 48,
+        lineNumber: 52,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 40,
+      lineNumber: 43,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 35,
+    lineNumber: 38,
     columnNumber: 10
   }, this);
 }
@@ -121,4 +124,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-EXOHDSBM.js.map
+//# sourceMappingURL=/build/root-Z2OPAMEN.js.map

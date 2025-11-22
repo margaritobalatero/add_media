@@ -7,10 +7,14 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+// ✅ Import CSS properly so Remix can bundle it
+import carouselStyles from "./styles/carousel.css";
+
 export const links = () => [
-  // Add your custom CSS
-  { rel: "stylesheet", href: "/styles/carousel.css" },
-  // ✅ Bootstrap CSS CDN
+  // Correct way to load local Remix CSS
+  { rel: "stylesheet", href: carouselStyles },
+
+  // Bootstrap CSS CDN
   {
     rel: "stylesheet",
     href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css",
@@ -34,7 +38,8 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
-        {/* ✅ Bootstrap JS bundle CDN */}
+
+        {/* Bootstrap JS bundle CDN */}
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+QZ9jEY5iqk6g3k5iZLv3G5R0RDfX"

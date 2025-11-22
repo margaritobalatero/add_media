@@ -37,60 +37,68 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\add.jsx"
   );
-  import.meta.hot.lastModified = "1761404922116.613";
 }
 function AddItem() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "add-page", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Add Media" }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container py-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", { href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css", rel: "stylesheet", integrity: "sha384-ENjdO4Dr2bkBIFxQpeoYz1HIr2z5e2e1sFidk8zZ4yY1pG1lEN5Kq0p2d6Y5p3yz", crossOrigin: "anonymous" }, void 0, false, {
       fileName: "app/routes/add.jsx",
       lineNumber: 40,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Form, { method: "post", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { name: "caption", placeholder: "Caption", required: true }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "mb-4 text-center", children: "Add Media" }, void 0, false, {
+      fileName: "app/routes/add.jsx",
+      lineNumber: 43,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Form, { method: "post", className: "d-flex flex-column gap-3", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { name: "caption", placeholder: "Caption", required: true, className: "form-control" }, void 0, false, {
         fileName: "app/routes/add.jsx",
-        lineNumber: 42,
+        lineNumber: 46,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { name: "mediaUrl", placeholder: "Image or Video URL", required: true }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { name: "mediaUrl", placeholder: "Image or Video URL", required: true, className: "form-control" }, void 0, false, {
         fileName: "app/routes/add.jsx",
-        lineNumber: 43,
+        lineNumber: 48,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("select", { name: "type", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("select", { name: "type", className: "form-select", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("option", { value: "image", children: "Image" }, void 0, false, {
           fileName: "app/routes/add.jsx",
-          lineNumber: 45,
+          lineNumber: 51,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("option", { value: "video", children: "Video" }, void 0, false, {
           fileName: "app/routes/add.jsx",
-          lineNumber: 46,
+          lineNumber: 52,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/add.jsx",
-        lineNumber: 44,
+        lineNumber: 50,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { type: "submit", children: "Add" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { type: "submit", className: "btn btn-success", children: "Add" }, void 0, false, {
         fileName: "app/routes/add.jsx",
-        lineNumber: 48,
+        lineNumber: 54,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/add.jsx",
-      lineNumber: 41,
+      lineNumber: 45,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/dashboard", children: "\u2B05 Back" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "mt-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/dashboard", className: "btn btn-outline-secondary", children: "\u2B05 Back" }, void 0, false, {
       fileName: "app/routes/add.jsx",
-      lineNumber: 50,
+      lineNumber: 60,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/routes/add.jsx",
+      lineNumber: 59,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/add.jsx",
-    lineNumber: 39,
+    lineNumber: 38,
     columnNumber: 10
   }, this);
 }
@@ -102,4 +110,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   AddItem as default
 };
-//# sourceMappingURL=/build/routes/add-3NQZXCYH.js.map
+//# sourceMappingURL=/build/routes/add-26F6EMKP.js.map
